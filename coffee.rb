@@ -1,10 +1,10 @@
 class Coffee
 
-    attr_reader :name, :origin_country
+    attr_reader :name, :place_of_origin
 
-    def initialize(name, origin_country)
-        @name = name
-        @origin_country = origin_country
+    def initialize(brand, place_of_origin)
+        @brand = brand
+        @place_of_origin = place_of_origin
     end
     
 end
